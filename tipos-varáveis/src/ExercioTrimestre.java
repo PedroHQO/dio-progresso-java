@@ -8,14 +8,17 @@ public class ExercioTrimestre {
       
       
         System.out.println("Despesa média mensal dos gastos");
-        System.out.println(janeiro);
-        System.out.println(fevereiro);
-        System.out.println(marco);
+        System.out.println("JANEIRO $" + janeiro);
+        System.out.println("FEVEREIRO $" + fevereiro);
+        System.out.println("MARÇO $" + marco);
       //Realizando a soma trimestral
       int somaTotal; 
         somaTotal = janeiro + fevereiro + marco;
-            System.out.println("Despesa total no trimestre");
-            System.out.println(somaTotal);
+            System.out.println("Despesa total no trimestre $" + somaTotal);
+            
+    int mediaMensal;
+        mediaMensal = somaTotal / 3;
+        System.out.println("A média mensal dos gastos são $" + mediaMensal);
   }
 
 
